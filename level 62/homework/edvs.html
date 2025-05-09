@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 2) Get the HTML element with the ID header and store it in a variable. -->
+    <p id="p"> paragraph</p>
+
+
+
+
+    <!-- 3) Use getElementById to find the element with the ID description. -->
+    <button id="button">
+
+    </button>
+
+
+
+
+
+    <!-- 4) Retrieve the element with the ID footer and assign it to a variable named footerElement. -->
+
+    <footer id="footer">
+
+    </footer>
+
+
+
+
+
+    <!-- 5) Get the text content of the element with the ID title and store it in a variable. -->
+
+
+
+
+    <!-- 6) Change the text content of the element with the ID greeting to say "Welcome!". -->
+     <p id="greet">
+        greeting
+     </p>
+
+
+
+
+     <!-- 7) Set the text content of the element with the ID note to be empty. -->
+      <p id="note">
+        note
+      </p>
+
+
+
+      <!-- 8) Change the text color of the element with the ID heading to red. -->
+       <h3 id="heading">
+        colorChange
+       </h3>
+
+
+
+
+       <!-- 9) Set the background color of the element with the ID box to yellow. -->
+        <button id="box">
+            box
+        </button>
+
+
+
+
+        <!-- 10) Make the font size of the element with the ID paragraph equal to 20px. -->
+
+        <p id="font">
+            font-size
+        </p>
+
+
+
+
+        <!-- 11) წაიკითხეთ ინფორმაცია:
+        https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById -->
+
+
+        <!-- 12) წაიკითხეთ ინფორმაცია:
+        https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
+ -->
+
+
+        <!-- 13) წაიკითხეთ ინფორმაცია:
+        https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style -->
+
+
+
+    <script>
+        // 1.
+        let p = document.getElementById("p")
+
+
+
+        // 2.
+        let button = document.getElementById("button")
+
+
+        // 3. 
+        let footerElement = document.getElementsByTagName("footer")
+
+
+
+        // 5.
+        let title = document.getElementsByTagName("title")
+
+        // 6. 
+        let greet = document.getElementById("greet")
+        greet.textContent = "welcome!"
+
+
+        // 7.
+        let note = document.getElementById("note")
+        note.textContent = "(empty)"
+
+
+        // 8.
+        let h3 = document.getElementById("heading")
+        h3.style.color = "red"
+
+
+        // 9.
+        let box = document.getElementById("box")
+        box.style.backgroundColor = "yellow"
+
+
+        // 10.
+        let font = document.getElementById("font")
+        font.style.fontSize = "20px"
+    </script>
+</body>
+</html>
