@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    width: 80vw;
+    background-color: black;
+    height: 70vw;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.child{
+    width: 20vw;
+    height: 20vw;
+    background-color: aqua;
+    border: 1px solid white;
+}

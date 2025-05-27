@@ -1,9 +1,61 @@
-#div1{
-    font-size: 500px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(178, 41, 116);
 }
-#div2{
-    font-size: 25%;
+.parent{
+    background-color: rgb(255, 255, 255);
+    height: 38vw;
+    width: 26vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgb(127, 123, 123);
+    border-radius: 1.8vw;
+
 }
-#p{
-    font-size: 50%;
+.parent div{
+    background: rgb(255, 180, 40);
+    height: 25vw;
+    width: 34vw;
+    border-bottom-left-radius: 21vw;
+    border-bottom-right-radius: 18vw;
+    position: absolute;
+    bottom: 20vw;
+    right: -3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+h1{
+    color: white;
+    margin-bottom: 5vw;
+    font-size: 6.5vw;
+    font-family: "Inter", sans-serif;
+
+}
+p{
+    margin-top: 21vw;
+    font-size: 1.7vw;
+    text-align: center;
+    width: 23vw;
+    color: rgb(101, 100, 100);
+    font-weight: bold;
+}
+button{
+    height: 4vw;
+    border: none;
+    background-color:  rgb(255, 180, 40);
+    border-radius: 4vw;
+    font-size: 1.4vw;
+    width: 11vw;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 0px 5px  rgb(255, 180, 40);
 }

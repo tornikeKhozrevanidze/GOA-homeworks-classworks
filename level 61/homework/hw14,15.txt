@@ -1,6 +1,0 @@
-14) წაიკითხეთ ინფორმაცია:
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables
-
-
-15) უყურეთ ვიდეოს:
-https://www.youtube.com/watch?v=8EA1cu-6exw&ab_channel=AdrianTwarog

@@ -1,9 +1,0 @@
-a{
-    background-color: aqua;
-    color: brown;
-    transition: 0.5s;
-}
-a:hover{
-    background-color: chartreuse;
-    color: blue;
-}

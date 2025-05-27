@@ -1,0 +1,30 @@
+section div{
+    width: 20vw;
+    height: 20vw;
+}
+.orange{
+    background-color: orange;
+}
+.black{
+    background-color: black;
+
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.color1{
+    display: flex;
+    flex-direction: row;
+}
+.color2{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
