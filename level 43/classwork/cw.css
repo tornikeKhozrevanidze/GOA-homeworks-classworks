@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* ფონტის დაიმპორტება */
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+/* ყველა ელემენტისთვის გაწერილი სტილები */
+
+
+
+body{
+    height:100vh;
+    /* სიმაღლე */
+    display: flex;
+    /* ფლექსი */
+    flex-direction: column;
+    /* ელემენტების განლაგება სვეტებად */
+    
+    justify-content: center;
+    /* ელემენტების გასწორება ჰორიზონტალურად */
+    align-items: center;
+    /* ელემენტების გასწორება ვერტიკალურად */
+    background-color: hsl(204, 43%, 93%);
+    /* უკანა ფონი */
+    
+}
+
+.mainDiv{
+    border-radius: 5px;
+    /* კუთხეების რადიუსი */
+    overflow: hidden;
+    /* ელემენტის საზღვრებს გარეთ ფარავს ელემენტის შიგნით მყოფ ელემენტს, თუ ის მშობელ ელემენტზე დიდია და გადადის მის საზღვრებს */
+}
+
+.firstDiv{
+    background-color: white;
+    height:200px;
+    
+    padding: 30px;
+    /* პადინგი */
+}
+
+.paragraph1{
+    color:#26a8a6;
+    /* ფერი */
+    font-weight: 700;
+    /* ფონტის სიმუქე */
+    font-size: 18px;
+    /* ფონტის ზომა */
+    margin-bottom: 25px;
+    /* ქვედა მარჯინი */
+}
+
+.paragraph2{
+    color:#BEDF31;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.paragraph3{
+    color:hsl(218, 22%, 67%);
+    /* ფერი ტექსტის */
+}
+
+.twoDivsTogether{
+    display: flex;
+    flex-direction: row;
+    /* ფლექსიუს განლაგება ჰორიზონტალურად */
+}
+
+.first{
+    background-color: #2BB4B1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width:50%;
+    /* სიგანე */
+}
+
+.paragraph4{
+    color:white;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+h2{
+    color:white;
+    margin-bottom: 10px;
+}
+
+h2 span{
+    color:hsl(179, 61%, 52%);
+    font-size: 14px;
+    vertical-align: middle;
+    /* ვერტიკალური განლაგება */
+}
+
+.paragraph5{
+    color:white;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+button{
+    background-color: #BEDF31;
+    border:none;
+    width:100%;
+    padding: 13px;
+    border-radius: 5px;
+    
+    color:white;
+    font-weight: 700;
+}
+
+.second{
+    background-color: #49BEBD;
+    padding: 30px;
+    width:50%;
+}
+
+.paragraph6{
+    color:hsl(204, 43%, 93%);
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+/* 1) მოცემული კოდი ახსენით კომენტარების სახით */

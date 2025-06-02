@@ -1,0 +1,30 @@
+div{
+    display: flex;
+    justify-content: space-between;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    width: 220px;
+    height: 40px;
+    border-radius: 9px;
+    border: none;
+    background-color: gainsboro;
+    margin-top: 5px;
+}
+.child input{
+    width: 100px;
+    
+}
+.child input::placeholder{
+    position: relative;
+    left: 10px;
+}

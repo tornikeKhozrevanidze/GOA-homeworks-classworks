@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: hsl(213, 19%, 18%);
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 30px;
+}
+h1{
+    font-size: 35px;
+    color: white;
+}
+p{
+    font-size: 18px;
+    line-height: 27px;
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    position: relative;
+    bottom: 20px;
+}
+.nums{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nums button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: hsl(213, 10%, 23%);
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+.sub{
+    height: 50px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.icon{
+    background-color: hsl(213, 10%, 23%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
