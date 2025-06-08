@@ -1,0 +1,15 @@
+section{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    gap: 10px;
+    width: 20%;
+    grid-template-columns: repeat(auto-fill, 100px);
+}
+div{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
