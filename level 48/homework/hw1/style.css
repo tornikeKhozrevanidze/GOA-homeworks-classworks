@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+
+}
+body{
+    background-color: hsl(221, 100%, 96%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    width: 55vw;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 40vw;
+    border-bottom-left-radius: 2.5vw;
+    border-top-left-radius: 2.5vw;
+    border-bottom-right-radius: 2.5vw;
+    border-top-right-radius: 2.5vw;
+
+
+}
+.sec-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 40vw;
+    width: 30vw;
+    background-color: aquamarine;
+    border-radius: 2.5vw;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 3vw;
+}
+.sec-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 40vw;
+
+    width: 30vw;
+    border-bottom-right-radius: 2.5vw;
+    border-top-right-radius: 2.5vw;
+    border-radius: 10px;
+}
+.sec-1 h4{
+    font-size: 2vw;
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;
+
+}
+.sec-1-sircle{
+    width: 16vw;
+    height: 16vw;
+    display: flex;
+    border-radius: 50%;
+    margin-top: 00.5vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+.sec-1-sircle h1{
+    font-size: 5.5vw;
+    color: white;
+}
+.sec-1-sircle h5{
+    font-size: 1.5vw;
+    color: white;
+    color: hsl(241, 100%, 89%);
+    font-weight: 300;
+}
+.sec-1-title{
+    font-size: 2.5vw;
+    color: hsl(0, 0%, 96%);
+    font-weight: 500;
+    height: 2vw;
+}
+.sec-1 p{
+    font-size: 1.4vw;
+    width: 20vw;
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-weight: 400;
+    margin-bottom: 0.9vw;
+}
+.sec-2 h1{
+    font-size: 2vw;
+    align-self: self-start;
+    margin-top: 3vw;
+    margin-left: 2.9vw;
+    color: hsl(224, 30%, 27%);
+}
+.sec-2-cards{
+    width: 22vw;
+    height: 4.5vw;
+    border-radius: 1vw;
+    background-color: black;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1vw;
+  
+}
+.sec-2-cards div{
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+    gap: 1vw;
+}
+.sec-2-cards img{
+    width: 1.5vw;
+}
+.sec-2-cards p{
+    font-size: 1.5vw;
+    color: hsl(223, 13%, 45%);
+    font-weight: 500;
+}
+.sec-2-cards-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22.5vw;
+    margin-bottom: 1vw;
+}
+
+#card-1{
+    background-color: rgba(255, 87, 87, 0.061);
+}
+#card-2{
+    background-color: hsla(39, 100%, 56%, 0.051);
+}
+#card-3{
+    background-color: hsla(166, 100%, 37%, 0.061);
+}
+#card-4{
+    background-color: hsla(234, 85%, 45%, 0.061);
+}
+#card-p-1{
+    color: hsl(0, 100%, 67%);
+    font-weight: 500;
+}
+#card-p-2{
+    color: hsl(39, 100%, 56%);
+    font-weight: 500;
+}
+#card-p-3{
+    color: hsl(166, 100%, 37%);
+    font-weight: 500;
+}
+#card-p-4{
+    color: hsl(234, 85%, 45%);
+    font-weight: 500;
+}
+.sec-2-span{
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+    font-size: 1.6vw;
+}
+.sec-2 button{
+    margin-bottom: 3vw;
+    width: 22vw;
+    height: 4.3vw;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 3vw;
+    color: white;
+    font-size: 1.4vw;
+}
+@media screen and (max-width:375px){
+    main{
+    
+    width: 75vw;
+    height: 160vw;
+    border-bottom-left-radius: 7vw;
+    border-top-left-radius: 7vw;
+    border-bottom-right-radius: 7vw;
+    border-top-right-radius: 7vw;
+    flex-direction: column;
+    margin-top: 10vw;
+
+
+    }
+    .sec-1{
+        height: 70vw;
+        width: 75vw;
+        border-radius: 7vw;
+        padding: 6vw;
+    }
+    .sec-2{
+        height: 90vw;
+        width: 75vw;
+        border-bottom-right-radius: 7vw;
+        border-bottom-left-radius: 7vw;
+        padding: 3vw;
+    }
+    .sec-1 h4{
+        font-size: 3.5vw;
+        color: hsl(241, 100%, 89%);
+        font-weight: 700;
+
+    }
+    .sec-1-sircle{
+        width: 26vw;
+        height: 26vw;
+        display: flex;
+        border-radius: 50%;
+        margin-top: 00.5vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: aqua;
+        background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    }
+    .sec-1-sircle h1{
+        font-size: 11vw;
+        color: white;
+    }
+    .sec-1-sircle h5{
+        font-size: 3vw;
+        color: white;
+        color: hsl(241, 100%, 89%);
+        font-weight: 300;
+    }
+    .sec-1-title{
+        font-size: 5vw;
+        color: hsl(0, 0%, 96%);
+        font-weight: 500;
+        height: 2vw;
+    }
+    .sec-1 p{
+        font-size: 3vw;
+        width: 50vw;
+        text-align: center;
+        color: hsl(241, 100%, 89%);
+        font-weight: 400;
+        margin-bottom: 0.9vw;
+    }
+    .sec-2 h1{
+        font-size: 3.5vw;
+        align-self: self-start;
+        margin-top: 3vw;
+        margin-left: 2.9vw;
+        color: hsl(224, 30%, 27%);
+    }
+    .sec-2-cards{
+        width: 63vw;
+        height: 10vw;
+        border-radius: 1vw;
+        background-color: black;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 2vw;
+    
+    }
+    .sec-2-cards div{
+        display: flex;
+        align-items: center;
+        margin-left: 2vw;
+        gap: 1vw;
+    }
+    .sec-2-cards img{
+        width: 4vw;
+    }
+    .sec-2-cards p{
+        font-size: 3vw;
+        color: hsl(223, 13%, 45%);
+        font-weight: 500;
+    }
+    .sec-2-cards-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 52.5vw;
+        margin-bottom: 1vw;
+    }
+    .sec-2 button{
+        margin-bottom: 3vw;
+        width: 62vw;
+        height: 11vw;
+        border: none;
+        background-color: hsl(224, 30%, 27%);
+        border-radius: 7vw;
+        color: white;
+        font-size: 3vw;
+    }
+    .sec-2-span{
+        color: hsl(224, 30%, 27%);
+        font-weight: 800;
+        font-size: 3.4vw;
+    }
+}

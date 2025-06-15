@@ -1,0 +1,19 @@
+2) კომენტარების სახით ახსენით თუ რა არის transition, transform, scale, rotate, translate მოიყვანეთ მაგალითები ელემნტებზე
+
+
+translate არის ელემენტის მოძრაობა x და y ღერძზე
+-
+transform: translate(12px, 10px)
+
+
+
+
+scale არის ელემენტის ზომის გაზრდა და დაპატარავება
+-
+transform: scale(1.5)
+
+
+
+rotate ელემენტის ბრუნდა საათის ისრის მიმართულებით ან საწინააღმდეგოდ
+- 
+transform: rotate(40deg)
