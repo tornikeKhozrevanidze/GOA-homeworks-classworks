@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.messenger{
+    width: 30vw;
+}
+.messenger-div{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+    color: white;
+    position: relative;
+    bottom: 15vw;
+    right: 5vw;
+}
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding-left: 5vw;
+  padding-right: 5vw;
+  position: fixed;
+  top: 0px;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 5vw;
+}
+
+.name {
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 5vw;
+  margin-right: 5vw;
+  
+}
+
+nav a {
+  font-size: large;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+a:hover {
+  color: #007bff;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+h1{
+    font-size: 3vw;
+    margin-left: 4vw;
+}
+section{
+    gap: 4vw;
+    display: flex;
+    flex-direction: column;
+}
+section div{
+    background-color: black;
+    width: 30vw;
+    height: 30vw;
+}

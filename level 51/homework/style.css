@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    height: 200vh;
+}
+div{
+    height: 30vw;
+    width: 30vw;
+    background-color: black;
+    border: 10px solid rgb(63, 5, 255);
+}
+.relative{
+    position: relative;
+    top: 10vw;
+}
+.absolute{
+    position: absolute;
+    top: 10vw;
+}
+.fixed{
+    position: fixed;
+    top: 5vw;
+    left: 1vw;
+}
+.sticky{
+    position: sticky;
+    top: 1vw;
+}
+
