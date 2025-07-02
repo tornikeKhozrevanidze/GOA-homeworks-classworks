@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3) შექმენით ერთი ცვლადი სადაც შენიახავთ password - ს, შექმენით ერთი ცვლადი სადაც მომხმარებელს შემოატანინებთ თავის პაროლს, შეამოწმეთ იმ შემთხვევაში თუ მომხმარებლის მიერ შემოტანილი პაროლი უდრის ცლადში შენახულ მნიშვნელობას, console log ში დაბეწდეთ ან alert - ის სახით აცნობეთ რომ Passwords match სხვა შემთხვევაში კი Passwords does not equal to each other -->
+     <script>
+        let password = prompt('enter password: ')
+
+        let check = prompt('check password: ')
+        if(password == check){
+            alert("password match")
+        }else{
+            alert("password does not match")
+        }
+     </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1) შექმენით ერთი ღილაკი, Guess the secret number, ამ ღილაკს დაუმატეთ მოვლენის მსმენელი, მომხმარებელს შემოატანინეთ რაიმე რიცხვი იმ შემთხვევაში თუ მომხმარებლის მიერ შემოტანილი რიცხვი მეტია თქვენს ჩაფიქრებულ რიცხვზე alert - ის საშუალებით აცნობეთ რომ, Your number is too high, try again, იმ შემთხვევაში თუ მომხმარებლის მიერ შემოტანილი რიცხვი ნაკლებია თქვენს რიცხვზე alert - ის დახმარებით აცნობეთ, რომ Your number is too low try again, სხვა შემთხვევაში კი You have guessed the secret number -->
+     <button onclick="namee()" id="button">
+        Guess the secret number
+     </button>
+     
+    <script>
+        let num = 20
+        let but = document.getElementById("button")
+        
+        function namee(){
+            let num2 = Number(prompt("enter"))
+            if(num2 > num){
+                alert("is too high, try again!")
+            }else if(num2< num){
+                alert("Your number is too low try again!")
+            }else if(num2 == num){
+                alert("it's correct number")
+            }else{
+                alert("error")
+            }
+
+
+            
+        }
+
+    </script>
+    
+</body>
+</html>

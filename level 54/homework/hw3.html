@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3) for loop ის გამოყენებით დაბეჭდეთ რიცხვები 1 დან 30 მდე, შეამოწმეთ თუ რიცხვი იყოფა 3 - ზე მაშინ console ში გამოიტანეთ ‘FIZZ’, თუ რიცხვი იყოფა 5 - ზე მაშინ console ში გამოიტანეთ ‘BUZZ’ თუ ორივეზე იყოფა დაბეჭდეთ ‘FIZZBUZZ’ -->
+     <script>
+        for(let i = 0; i < 31; i++){
+            if(i % 3 == 0 & i % 5 != 0){
+                console.log("FIZZ")
+            }else if(i % 5 == 0 & i % 3 != 0){
+                console.log("BUZZ")
+            }else if(i % 5 == 0 & i % 3 == 0){
+                console.log("FIZZBUZZ")
+            }
+        }
+     </script>
+</body>
+</html>
