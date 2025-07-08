@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 2) შექმენით პროექტი Javascript - ის გამოყენებით, თქვენი დავალებაა რომ მოიძიოთ ინფორმაცია DOM - ის შესახებ, შექმენით ერთი ღილაკი მიანიჭეთ მას უნიკალური ID, მოიპოვეთ წვდომა კონკრეტულ ღილაკზე (მოიძიეთ თუ როგორ ხდება წვდომის მოპოვება რაიმე ელემენტზე Javascript - ში) დაუმატეთ მას მოვლენის მსმენელი addEventListener - ის გამოყენებით. მოუსმინეთ 'click' მოვლენას, როდესაც მომხმარებელი დააკლიკებს კონკრეტულ ღილაკს უნდა გამოჩნდეს ტექსტი <h1>Hello World</h1>. მინიშნება: შექმენით ერთი თეგი <h1></h1> რომელიც იქნება ცარიელი, მიანიჭეთ მას უნიკალური ID რადგან შეძლოთ მასზე წვდომის მოპოვება, როდესაც მომხმარებელი ღილაკს დააჭერს მაშინ უნდა შეიცვალოს <h1></h1> თეგის ტექსტის მნიშვნელობა (თავიდან ცარიელი > ღილაკზე დაჭერისას'Hello World') ამისთვის მოიძიეთ ინფორმაცია თუ როგორ უნდა შეცვალოთ რაიმე ელემენტის ტექსტის შიგთავსი -->
+     <button>
+        click me
+     </button>
+     <h1>
+
+     </h1>
+     <script>
+        let button = document.querySelector("button")
+        let h1 = document.querySelector("h1")
+        button.addEventListener('click', function(){
+            h1.innerHTML = "Hello World!"
+        })
+     </script>
+</body>
+</html>

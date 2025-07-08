@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 6) შექმენით ერთი ცვლადი სახელად role მაში შეინახეთ რაიმე role - ი მაგალითად (moderator, admin, user), switch - ის გამოყენებით შეამოწმეთ თუ role - ი არის admin - ი console ში გამოიტენეთ რომ "You Have Full Access" moderator - ის შემთხვევაში გამოიტანეთ "You Can Manage The Content", user - ის შემთხვევაში გამოიტანეთ "You Can View The Content"  სხვა შემთხვევაში კი "Access Denied" or "Invalid Role" -->
+     <script>
+        let role = "admin"
+        switch(role){
+            case "moderator":
+                console.log("You Can Manage The Content")
+                break
+            case "admin":
+                console.log("You Have Full Access" )
+                break
+            case "user":
+                console.log("You Can View The Content")
+                break
+            default:
+                console.log("invalid role")
+                break
+
+        }
+     </script>
+</body>
+</html>

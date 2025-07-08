@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 8) შექმენით ერთი ფუნქცია გადაეცით მას ერთი პარამეტრი num, თქვენმა ფუნქციამ უნდა შეამოწმოს არის თუ არა კონკრეტული რიცხვი ლუწი თუ არის დააბრუნეთ რომ რიცხვი არის "Even" ლუწი სხვა შემთხვევაში კი დააბრუნეთ რომ "The Number Is Odd" ეს შემოწმება გააკეთეთ ternary operator - ის გამოყენებით, გამოიძახეთ ფუნქცია 4 ჯერ და გადაეცით მას პარამეტრად სხვადასხვა მნიშვნელობები -->
+     <script>
+        function nam(num){
+            let trueOrFalse = num % 2 == 0
+            trueOrFalse ? console.log('your num is even') : console.log("your name is odd");
+            
+        }
+        console.log(nam(8))
+        console.log(nam(2))
+        console.log(nam(1))
+        console.log(nam(23))
+     </script>
+</body>
+</html>

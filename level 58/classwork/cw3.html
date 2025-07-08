@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3) შექმენით 2 ფუნქცია პირველის სახელია rectangleArea, triangleArea, პირველი ფუნქცია გამოითვლის სხვადასხვა ოთკუთხედის ფართობს ხოლო მეორე გამოითვლის სამკუთხედის ფართობს, აგრეთვე კოდის დაწერის შემდეგ აუცილებლად ახსენით რა არის პარამეტრი და არგუმენტი (სამკუთხედის ფართობის გამოსათვლელი ფორმულა მოიძიეთ ინტერნეტში) -->
+     <script>
+        function tri(first, second, third) {
+            let p = (first + second + third) / 2
+            let s = Math.sqrt(p * (p-first) * (p-second) * (p-third))
+            return Math.floor(s)
+        }
+        function rec(first, second) {
+            
+            let s = first * second
+            return Math.floor(s)
+        }
+        console.log(tri(5, 4, 6))
+        console.log(rec(5, 4))
+     </script>
+
+</body>
+</html>

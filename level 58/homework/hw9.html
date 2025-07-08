@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 9) შექმენით ორი ღილაკი heads tails ორივეს მიანიჭეთ უნკიალური ID შექმენით ერთი პარაგრაფი და მასაც მიანიჭეთ უნკიალური ID, მოიპოვეთ წვდომა ორივე ღილაკზე, იმ შემთხვევაში თუ მომხმარებელმა დააჭირა ხელი heads ღილაკს მაშინ paragraph element - ის ტექსტის შიგთავსი შეცვალეთ და გახადეთ heads - ი, თუ მომხმარებელმა დააჭირა ხელი tails ღილაკს მაშინ paragraph element - ის ტექტსი შიგთავსი შეცვალეთ და გახადეთ tails - ის ტოლი, მინიშნება გამოიყენეთ document.getElementById, addEventListener, მოუსმინეთ 'click' მოვლენას -->
+     <button id="head">
+        head
+     </button>
+     <button id="tail">
+        tail
+     </button>
+     <p>default</p>
+     <script>
+        let butt1 = document.getElementById("head")
+        let butt2 = document.getElementById("tail")
+        let p = document.querySelector("p")
+        butt1.addEventListener("click", function(){
+            p.innerText = "head"
+        })
+        butt2.addEventListener("click", function(){
+            p.innerText = "tail"
+        })
+     </script>
+</body>
+</html>

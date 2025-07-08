@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3) შემოატანინეთ მომხმარებელს ასაკი, შეამოწმეთ თუ მომხმარებლის მიერ შემოტანილი მნიშვნელობა, ასაკი  არის მეტი 0 - ზე და ნაკლები ან ტოლი 13 - ზე მაშინ alert - ის დახმარებით გამოიტანეთ რომ მომხმარებელი არის არასრულწლოვანი, იმ შემთხვევაში თუ მომხამრებლის მიერ შემოტანილი ასაკი მეტია ან ტოლი 13 და ნაკლებია 18 - ზე მაშინ alert - ის დახმარებით აცნობეთ რომ ის არის თინეიჯერი, იმ შემთხვევაში თუ მომხამრებლის ასაკი მეტია ან ტოლი 18 - ის გამოიტანეთ რომ ის არის სრულწლოვანი -->
+
+    <script>
+        let age = Number(prompt("enter your age: "))
+        if(age > 0 & age < 13){
+            alert("you are a minor")
+        }else if(age > 13 & age < 18){
+            alert("you are a teenager")
+        }else if(age >= 18){
+            alert("you are an adult")
+        }else{
+            alert("error")
+        }
+    </script>
+</body>
+</html>
