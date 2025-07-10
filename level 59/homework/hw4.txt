@@ -1,0 +1,3 @@
+4) გადახედეთ მოცემულ რესურსს DOM - ის შესახებ
+
+https://www.w3schools.com/js/js_htmldom.asp

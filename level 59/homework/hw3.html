@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3) შექმენით increaseTheCount პროექტი, გექნებათ:
+ერთი პარაგრაფი რომლის საწყისი მნიშვნელობა იქნება <p>Count: 0</p>, 
+ერთი ღილაკი Increase Count By One რომელიც ყოველ ჯერზე გაზრდის Count პარაგრაფის მნიშვნელობას ერთით -->
+
+    <button>
+        Increase Count By One
+    </button>
+    <br>
+    <h1>0</h1>
+    <script>
+        let button = document.querySelector("button");
+        let h1 = document.querySelector("h1");
+        h = 0
+        button.addEventListener("click", function(){
+            h += 1
+            h1.textContent = String(h)
+        })
+    </script>
+</body>
+</html>
